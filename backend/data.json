@@ -1,0 +1,137 @@
+{
+  "Traitor Guard": {
+    "Hidden": [
+      { "numbers": [1, 2, 3, 4, 5], "title": "Ambush", "description": "The guard sets up an ambush, waiting silently." },
+      { "numbers": [6], "title": "Recon", "description": "The guard is scouting the area, looking for any intruders." },
+      { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Surveillance", "description": "The guard keeps watch over a wide area, making sure no one escapes notice." },
+      { "numbers": [16, 17, 18, 19, 20], "title": "Evasive", "description": "The guard avoids direct confrontation, retreating into shadows." }
+    ],
+    "Engaged": [ 
+      { "numbers": [1, 2, 3, 4, 5], "title": "Ambush", "description": "The guard sets up an ambush, waiting silently." },
+      { "numbers": [6], "title": "Recon", "description": "The guard is scouting the area, looking for any intruders." },
+      { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Surveillance", "description": "The guard keeps watch over a wide area, making sure no one escapes notice." },
+      { "numbers": [16, 17, 18, 19, 20], "title": "Evasive", "description": "The guard avoids direct confrontation, retreating into shadows." }
+  	],
+    "OST": [
+      { "numbers": [1, 2, 3, 4, 5], "title": "Ambush", "description": "The guard sets up an ambush, waiting silently." },
+      { "numbers": [6], "title": "Recon", "description": "The guard is scouting the area, looking for any intruders." },
+      { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Surveillance", "description": "The guard keeps watch over a wide area, making sure no one escapes notice." },
+      { "numbers": [16, 17, 18, 19, 20], "title": "Evasive", "description": "The guard avoids direct confrontation, retreating into shadows." }
+
+    ],
+    "Other": [      
+      { "numbers": [1, 2, 3, 4, 5], "title": "Ambush", "description": "The guard sets up an ambush, waiting silently." },
+      { "numbers": [6], "title": "Recon", "description": "The guard is scouting the area, looking for any intruders." },
+      { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Surveillance", "description": "The guard keeps watch over a wide area, making sure no one escapes notice." },
+      { "numbers": [16, 17, 18, 19, 20], "title": "Evasive", "description": "The guard avoids direct confrontation, retreating into shadows." }
+]
+  },
+  "Spindle Drone": {
+    "Hidden": [
+      { "numbers": [1, 2, 3, 4, 5], "title": "Ambush", "description": "The guard sets up an ambush, waiting silently." },
+      { "numbers": [6], "title": "Recon", "description": "The guard is scouting the area, looking for any intruders." },
+      { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Surveillance", "description": "The guard keeps watch over a wide area, making sure no one escapes notice." },
+      { "numbers": [16, 17, 18, 19, 20], "title": "Evasive", "description": "The guard avoids direct confrontation, retreating into shadows." }
+    ],
+    "Engaged": [ 
+      { "numbers": [1, 2, 3, 4, 5], "title": "Ambush", "description": "The guard sets up an ambush, waiting silently." },
+      { "numbers": [6], "title": "Recon", "description": "The guard is scouting the area, looking for any intruders." },
+      { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Surveillance", "description": "The guard keeps watch over a wide area, making sure no one escapes notice." },
+      { "numbers": [16, 17, 18, 19, 20], "title": "Evasive", "description": "The guard avoids direct confrontation, retreating into shadows." }
+  	],
+    "OST": [
+      { "numbers": [1, 2, 3, 4, 5], "title": "Ambush", "description": "The guard sets up an ambush, waiting silently." },
+      { "numbers": [6], "title": "Recon", "description": "The guard is scouting the area, looking for any intruders." },
+      { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Surveillance", "description": "The guard keeps watch over a wide area, making sure no one escapes notice." },
+      { "numbers": [16, 17, 18, 19, 20], "title": "Evasive", "description": "The guard avoids direct confrontation, retreating into shadows." }
+
+    ],
+    "Other": [      
+      { "numbers": [1, 2, 3, 4, 5], "title": "Ambush", "description": "The guard sets up an ambush, waiting silently." },
+      { "numbers": [6], "title": "Recon", "description": "The guard is scouting the area, looking for any intruders." },
+      { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Surveillance", "description": "The guard keeps watch over a wide area, making sure no one escapes notice." },
+      { "numbers": [16, 17, 18, 19, 20], "title": "Evasive", "description": "The guard avoids direct confrontation, retreating into shadows." }
+]
+  },
+  "Ur-Ghoul": {
+    "Hidden": [
+      { "numbers": [1, 2, 3, 4, 5], "title": "Ambush", "description": "The guard sets up an ambush, waiting silently." },
+      { "numbers": [6], "title": "Recon", "description": "The guard is scouting the area, looking for any intruders." },
+      { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Surveillance", "description": "The guard keeps watch over a wide area, making sure no one escapes notice." },
+      { "numbers": [16, 17, 18, 19, 20], "title": "Evasive", "description": "The guard avoids direct confrontation, retreating into shadows." }
+    ],
+    "Engaged": [ 
+      { "numbers": [1, 2, 3, 4, 5], "title": "Ambush", "description": "The guard sets up an ambush, waiting silently." },
+      { "numbers": [6], "title": "Recon", "description": "The guard is scouting the area, looking for any intruders." },
+      { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Surveillance", "description": "The guard keeps watch over a wide area, making sure no one escapes notice." },
+      { "numbers": [16, 17, 18, 19, 20], "title": "Evasive", "description": "The guard avoids direct confrontation, retreating into shadows." }
+  	],
+    "OST": [
+      { "numbers": [1, 2, 3, 4, 5], "title": "Ambush", "description": "The guard sets up an ambush, waiting silently." },
+      { "numbers": [6], "title": "Recon", "description": "The guard is scouting the area, looking for any intruders." },
+      { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Surveillance", "description": "The guard keeps watch over a wide area, making sure no one escapes notice." },
+      { "numbers": [16, 17, 18, 19, 20], "title": "Evasive", "description": "The guard avoids direct confrontation, retreating into shadows." }
+
+    ],
+    "Other": [      
+      { "numbers": [1, 2, 3, 4, 5], "title": "Ambush", "description": "The guard sets up an ambush, waiting silently." },
+      { "numbers": [6], "title": "Recon", "description": "The guard is scouting the area, looking for any intruders." },
+      { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Surveillance", "description": "The guard keeps watch over a wide area, making sure no one escapes notice." },
+      { "numbers": [16, 17, 18, 19, 20], "title": "Evasive", "description": "The guard avoids direct confrontation, retreating into shadows." }
+]
+  },
+  "Chaos Marine": {
+    "Hidden": [
+      { "numbers": [1, 2, 3, 4, 5], "title": "Ambush", "description": "The guard sets up an ambush, waiting silently." },
+      { "numbers": [6], "title": "Recon", "description": "The guard is scouting the area, looking for any intruders." },
+      { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Surveillance", "description": "The guard keeps watch over a wide area, making sure no one escapes notice." },
+      { "numbers": [16, 17, 18, 19, 20], "title": "Evasive", "description": "The guard avoids direct confrontation, retreating into shadows." }
+    ],
+    "Engaged": [ 
+      { "numbers": [1, 2, 3, 4, 5], "title": "Ambush", "description": "The guard sets up an ambush, waiting silently." },
+      { "numbers": [6], "title": "Recon", "description": "The guard is scouting the area, looking for any intruders." },
+      { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Surveillance", "description": "The guard keeps watch over a wide area, making sure no one escapes notice." },
+      { "numbers": [16, 17, 18, 19, 20], "title": "Evasive", "description": "The guard avoids direct confrontation, retreating into shadows." }
+  	],
+    "OST": [
+      { "numbers": [1, 2, 3, 4, 5], "title": "Ambush", "description": "The guard sets up an ambush, waiting silently." },
+      { "numbers": [6], "title": "Recon", "description": "The guard is scouting the area, looking for any intruders." },
+      { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Surveillance", "description": "The guard keeps watch over a wide area, making sure no one escapes notice." },
+      { "numbers": [16, 17, 18, 19, 20], "title": "Evasive", "description": "The guard avoids direct confrontation, retreating into shadows." }
+
+    ],
+    "Other": [      
+      { "numbers": [1, 2, 3, 4, 5], "title": "Ambush", "description": "The guard sets up an ambush, waiting silently." },
+      { "numbers": [6], "title": "Recon", "description": "The guard is scouting the area, looking for any intruders." },
+      { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Surveillance", "description": "The guard keeps watch over a wide area, making sure no one escapes notice." },
+      { "numbers": [16, 17, 18, 19, 20], "title": "Evasive", "description": "The guard avoids direct confrontation, retreating into shadows." }
+]
+  },
+  "Beastman": {
+    "Hidden": [
+      { "numbers": [1, 2, 3, 4, 5], "title": "Ambush", "description": "The guard sets up an ambush, waiting silently." },
+      { "numbers": [6], "title": "Recon", "description": "The guard is scouting the area, looking for any intruders." },
+      { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Surveillance", "description": "The guard keeps watch over a wide area, making sure no one escapes notice." },
+      { "numbers": [16, 17, 18, 19, 20], "title": "Evasive", "description": "The guard avoids direct confrontation, retreating into shadows." }
+    ],
+    "Engaged": [ 
+      { "numbers": [1, 2, 3, 4, 5], "title": "Ambush", "description": "The guard sets up an ambush, waiting silently." },
+      { "numbers": [6], "title": "Recon", "description": "The guard is scouting the area, looking for any intruders." },
+      { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Surveillance", "description": "The guard keeps watch over a wide area, making sure no one escapes notice." },
+      { "numbers": [16, 17, 18, 19, 20], "title": "Evasive", "description": "The guard avoids direct confrontation, retreating into shadows." }
+  	],
+    "OST": [
+      { "numbers": [1, 2, 3, 4, 5], "title": "Ambush", "description": "The guard sets up an ambush, waiting silently." },
+      { "numbers": [6], "title": "Recon", "description": "The guard is scouting the area, looking for any intruders." },
+      { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Surveillance", "description": "The guard keeps watch over a wide area, making sure no one escapes notice." },
+      { "numbers": [16, 17, 18, 19, 20], "title": "Evasive", "description": "The guard avoids direct confrontation, retreating into shadows." }
+
+    ],
+    "Other": [      
+      { "numbers": [1, 2, 3, 4, 5], "title": "Ambush", "description": "The guard sets up an ambush, waiting silently." },
+      { "numbers": [6], "title": "Recon", "description": "The guard is scouting the area, looking for any intruders." },
+      { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Surveillance", "description": "The guard keeps watch over a wide area, making sure no one escapes notice." },
+      { "numbers": [16, 17, 18, 19, 20], "title": "Evasive", "description": "The guard avoids direct confrontation, retreating into shadows." }
+]
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "Traitor Guard": {
+    "Hidden": {
+      "description": "No line of sight to an explorer.",
+      "actions": [
+        { "numbers": [1, 2, 3, 4, 5], "title": "Ambush", "description": "The guard sets up an ambush, waiting silently." },
+        { "numbers": [6], "title": "Recon", "description": "The guard is scouting the area, looking for any intruders." },
+        { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Surveillance", "description": "The guard keeps watch over a wide area, ensuring no one escapes notice." },
+        { "numbers": [16, 17, 18, 19, 20], "title": "Evasive", "description": "The guard avoids direct confrontation, retreating into shadows." }
+      ]
+    },
+    "Engaged": {
+      "description": "Actively fighting or in close combat.",
+      "actions": [
+        { "numbers": [1, 2, 3, 4, 5], "title": "Attack", "description": "The guard attacks furiously at the nearest target." },
+        { "numbers": [6], "title": "Guard Posture", "description": "The guard assumes a defensive stance, readying for an attack." },
+        { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Tactical Advance", "description": "The guard advances strategically to overtake enemies." },
+        { "numbers": [16, 17, 18, 19, 20], "title": "Charged Attack", "description": "The guard launches a powerful, reckless attack." }
+      ]
+    },
+    "Close": {
+      "description": "Within close range but not in active combat.",
+      "actions": [
+        { "numbers": [1, 2, 3, 4, 5], "title": "Snipe", "description": "The guard takes aim from a distance, preparing a deadly shot." },
+        { "numbers": [6], "title": "Monitor", "description": "The guard watches closely, ready to react." },
+        { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Reconnaissance", "description": "The guard surveys the terrain, preparing for strategic movements." },
+        { "numbers": [16, 17, 18, 19, 20], "title": "Retreat", "description": "The guard begins a tactical retreat to regroup." }
+      ]
+    },
+    "Other": {
+      "description": "Not in combat, performing other duties.",
+      "actions": [
+        { "numbers": [1, 2, 3, 4, 5], "title": "Patrol", "description": "The guard is on a routine patrol, scanning the surroundings." },
+        { "numbers": [6], "title": "Rest", "description": "The guard takes a moment to rest and recover strength." },
+        { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Alert", "description": "The guard is informed of potential threats nearby." },
+        { "numbers": [16, 17, 18, 19, 20], "title": "Recalibrate", "description": "The guard recalibrates its weapons for optimal performance." }
+      ]
+    }
+  },
+  "Negavolt Cultist": {
+    "Hidden": {
+      "description": "No line of sight to an explorer.",
+      "actions": [
+        { "numbers": [1, 2, 3], "title": "Recharge", "description": "Remove a wound counter from the Negavolt Cultist. If the Negavolt Cultist does ot have a wound counter, treat this result as an Advance result instead. (Advance: More towards the closest explorer. Then attack the closest explorer that is in range and visible to this hostile." },
+        { "numbers": [6], "title": "Covert Scan", "description": "The drone scans hidden targets using advanced sensors." },
+        { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Cloaked Surveillance", "description": "The drone monitors the area with cloaked sensors." },
+        { "numbers": [16, 17, 18, 19, 20], "title": "Invisible", "description": "The drone becomes nearly invisible to avoid detection." }
+      ]
+    },
+    "Engaged": {
+      "description": "In active combat, targeting enemies.",
+      "actions": [
+        { "numbers": [1, 2, 3, 4, 5], "title": "Laser Assault", "description": "The drone launches a targeted laser attack." },
+        { "numbers": [6], "title": "Data Transfer", "description": "The drone sends combat data to allies." },
+        { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Energy Blast", "description": "The drone releases a powerful energy blast at its target." },
+        { "numbers": [16, 17, 18, 19, 20], "title": "Shield Pulse", "description": "The drone activates a shield pulse to protect itself." }
+      ]
+    },
+    "Close": {
+      "description": "Nearby, monitoring or supporting allies.",
+      "actions": [
+        { "numbers": [1, 2, 3, 4, 5], "title": "Hover", "description": "The drone hovers close by, monitoring the situation." },
+        { "numbers": [6], "title": "Scan", "description": "The drone performs a close-range scan for tactical insight." },
+        { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Close Support", "description": "The drone provides support to nearby allies." },
+        { "numbers": [16, 17, 18, 19, 20], "title": "Resupply", "description": "The drone resupplies ammunition erratically and efficiently." }
+      ]
+    },
+    "Other": {
+      "description": "Not engaged, performing diagnostics or standby functions.",
+      "actions": [
+        { "numbers": [1, 2, 3, 4, 5], "title": "Standby", "description": "The drone is on standby, awaiting further commands." },
+        { "numbers": [6], "title": "Recharge", "description": "The drone recharges its power cells." },
+        { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Monitor Mode", "description": "The drone enters monitor mode to track environmental changes." },
+        { "numbers": [16, 17, 18, 19, 20], "title": "Diagnostics", "description": "The drone performs a system check." }
+      ]
+    }
+  },
+  "Ur-Ghoul": {
+    "Hidden": {
+      "description": "Lurking in the shadows, waiting to strike.",
+      "actions": [
+        { "numbers": [1, 2, 3, 4, 5], "title": "Stalk", "description": "The Ur-Ghoul stalks its prey, waiting for the perfect moment to strike." },
+        { "numbers": [6], "title": "Listeners", "description": "Using its acute hearing, the creature listens for movement." },
+        { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Dark Ambush", "description": "The Ur-Ghoul prepares a dark ambush from the shadows." },
+        { "numbers": [16, 17, 18, 19, 20], "title": "Vanish", "description": "The Ur-Ghoul vanishes from sight, becoming part of the darkness." }
+      ]
+    },
+    "Engaged": {
+      "description": "In active combat, attacking violently.",
+      "actions": [
+        { "numbers": [1, 2, 3, 4, 5], "title": "Savage Attack", "description": "The Ur-Ghoul launches a savage melee attack." },
+        { "numbers": [6], "title": "Ferocious Claw", "description": "The Ur-Ghoul slashes with its deadly claws." },
+        { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Frenzied Assault", "description": "The Ur-Ghoul attacks in a frenzy, overwhelming its target." },
+        { "numbers": [16, 17, 18, 19, 20], "title": "Wild Swing", "description": "The Ur-Ghoul swings wildly with overwhelming force." }
+      ]
+    },
+    "Close": {
+      "description": "Near enemies, assessing the situation.",
+      "actions": [
+        { "numbers": [1, 2, 3, 4, 5], "title": "Scent Hunt", "description": "The creature relies on its enhanced senses to track prey." },
+        { "numbers": [6], "title": "Close Encounter", "description": "The Ur-Ghoul engages in a close encounter." },
+        { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Territorial Display", "description": "The Ur-Ghoul makes a display to assert its dominance." },
+        { "numbers": [16, 17, 18, 19, 20], "title": "Near Ambush", "description": "The Ur-Ghoul sets up an ambush at close range." }
+      ]
+    },
+    "Other": {
+      "description": "Not engaged, focusing on rest or other activities.",
+      "actions": [
+        { "numbers": [1, 2, 3, 4, 5], "title": "Howl", "description": "The Ur-Ghoul emits a blood-curdling howl." },
+        { "numbers": [6], "title": "Feed", "description": "The Ur-Ghoul takes time to feed on fallen enemies." },
+        { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Loner", "description": "Relying on solitude, the Ur-Ghoul bides its time alone." },
+        { "numbers": [16, 17, 18, 19, 20], "title": "Rest", "description": "The creature takes a moment to rest, conserving its energy." }
+      ]
+    }
+  },
+  "Chaos Marine": {
+    "Hidden": {
+      "description": "Out of sight, preparing for assault.",
+      "actions": [
+        { "numbers": [1, 2, 3, 4, 5], "title": "Conceal", "description": "The Chaos Marine conceals itself, planning its next move." },
+        { "numbers": [6], "title": "Monitor", "description": "The marine monitors the field silently, gathering intelligence." },
+        { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Stealth Advance", "description": "The marine advances stealthily, avoiding detection." },
+        { "numbers": [16, 17, 18, 19, 20], "title": "Decoy", "description": "The marine sets up a decoy to mislead the enemy." }
+      ]
+    },
+    "Engaged": {
+      "description": "In combat, using a mix of tactics.",
+      "actions": [
+        { "numbers": [1, 2, 3, 4, 5], "title": "Bolter Fire", "description": "Rapid bolter fire erupts from the Chaos Marine." },
+        { "numbers": [6], "title": "Melee", "description": "The marine engages in hand-to-hand combat." },
+        { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Rage Strike", "description": "The marine performs a powerful strike infused with rage." },
+        { "numbers": [16, 17, 18, 19, 20], "title": "War Cry", "description": "The marine lets out a war cry, boosting morale of allies." }
+      ]
+    },
+    "Close": {
+      "description": "Positioned near enemy lines for influence.",
+      "actions": [
+        { "numbers": [1, 2, 3, 4, 5], "title": "Advance", "description": "The Chaos Marine advances on the enemy position." },
+        { "numbers": [6], "title": "Flank", "description": "The marine attempts to flank the enemy forces." },
+        { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Charge", "description": "The marine charges the enemy lines with aggressive fervor." },
+        { "numbers": [16, 17, 18, 19, 20], "title": "Barrage", "description": "A barrage of shots is fired from a close range." }
+      ]
+    },
+    "Other": {
+      "description": "Not in active combat, strategizing or recharging.",
+      "actions": [
+        { "numbers": [1, 2, 3, 4, 5], "title": "Survey", "description": "The Chaos Marine surveys the battlefield." },
+        { "numbers": [6], "title": "Regroup", "description": "The marine regroups with nearby allies." },
+        { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Meditation", "description": "The marine meditates, focusing its chaotic energies." },
+        { "numbers": [16, 17, 18, 19, 20], "title": "Meditate", "description": "The Chaos Marine takes a moment to reflect and recharge." }
+      ]
+    }
+  },
+  "Beastman": {
+    "Hidden": {
+      "description": "Lying in wait, ready to spring out.",
+      "actions": [
+        { "numbers": [1, 2, 3, 4, 5], "title": "Wait", "description": "The Beastman waits in shadows, ready to pounce." },
+        { "numbers": [6], "title": "Blend", "description": "The creature blends with the environment silently." },
+        { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Stealth Hunt", "description": "The Beastman hunts silently, leaving little trace." },
+        { "numbers": [16, 17, 18, 19, 20], "title": "Disappear", "description": "The Beastman disappears from sight amidst chaos." }
+      ]
+    },
+    "Engaged": {
+      "description": "Attacking ferociously, driven by primal fury.",
+      "actions": [
+        { "numbers": [1, 2, 3, 4, 5], "title": "Rampage", "description": "The Beastman goes on a rampage, attacking anything in its way." },
+        { "numbers": [6], "title": "Roar", "description": "A deafening roar echoes as the Beastman charges." },
+        { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Feral Charge", "description": "The Beastman charges with intense ferocity." },
+        { "numbers": [16, 17, 18, 19, 20], "title": "Pummel", "description": "The Beastman pummels its target with brute strength." }
+      ]
+    },
+    "Close": {
+      "description": "Close to the enemy, poised to attack.",
+      "actions": [
+        { "numbers": [1, 2, 3, 4, 5], "title": "Stalk", "description": "The Beastman stalks its target at a close distance." },
+        { "numbers": [6], "title": "Circle", "description": "The creature circles its prey, looking for weaknesses." },
+        { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Vicious Proximity", "description": "The Beastman engages its target within lethal range." },
+        { "numbers": [16, 17, 18, 19, 20], "title": "Ambush Setup", "description": "The Beastman sets up an ambush near its prey." }
+      ]
+    },
+    "Other": {
+      "description": "Not in combat, preparing or resting.",
+      "actions": [
+        { "numbers": [1, 2, 3, 4, 5], "title": "Bellow", "description": "The Beastman bellows, calling others to its side." },
+        { "numbers": [6], "title": "Graze", "description": "The Beastman takes a moment to graze and rest." },
+        { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Watchful Wait", "description": "The Beastman waits and watches, scanning for targets." },
+        { "numbers": [16, 17, 18, 19, 20], "title": "Hide", "description": "The Beastman hides, waiting for a better opportunity." }
+      ]
+    }
+  }
+}

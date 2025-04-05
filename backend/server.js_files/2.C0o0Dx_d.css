@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+<body>
+<form name="form" method="post" action="https://owu.eksponent.com/.headauth/signin-oidc">
+<input type="hidden" name="code" value="qb6iv3i_4S9attcU56XKU5myIhvCaKrw70NadFEnKQE" />
+<input type="hidden" name="state" value="CfDJ8ACqQqfhG6VNhaq34DkEXFEf7w-yBjS8uCGb46LMqBGWKvmGxA0PaQ2Amjv4iT_7MisX944avITRtpBGhjno-bpxXL53wrP2LmkH8qh9sR64YHmzNbymHEhqp3PoEOrz6KZpWGCU4xAWWoln76ECs_EZcBSqarpyPwvxisF0AuTllpM1WZ2EUiMrt-TjegrThrRmDvg8gDtaRJxdrT4rVizlsIvMMoi7XPiBOicTVmxWUGo3Rxi5x8NfiouJscyvN5ZbHecBfKnpJd63sCqXAIHXJjZ1XKQ3PDYZLMPvUDjNI0EkBqmEd8TV3m2juc-_a9yEJY_JTQwU1KI3x8NRamkL_Pdm9s3-Bwzh22KDhxszM7yN_khHNinY0yNwA5-heP63UjfctQUk-DQZFj1gneo" />
+<input type="hidden" name="iss" value="https://oidc.eksponent.com/" />
+<noscript>Click here to finish the authorization process: <input type="submit" /></noscript>
+</form>
+<script>document.form.submit();</script>
+</body>
+</html>

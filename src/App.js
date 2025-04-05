@@ -27,12 +27,14 @@ function App() {
     setRolledNumber(null);
   };
 
+   /* Fejlhåndtering, som nu vist er lidt ligegyldigt */
   const handleClick = () => {
     if (!selectedObject || !selectedStatus) {
-      alert("Please select both an object and a status");
+      alert("Please select both a hostile and a status");
       return;
     }
 
+    /* Lav et random tal, som vi også kan gemme til at vise */
     const randomNumber = Math.floor(Math.random() * 20) + 1;
     setRolledNumber(randomNumber);
 
@@ -69,7 +71,7 @@ function App() {
       <header className="App-header" style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <img src={logo} alt="Blackstone Fortress Logo" style={{ width: '200px', marginBottom: '20px' }} />
         
-        {/* Select Object */}
+        {/* vælg en hostile */}
         <div>
           <label>
             <select value={selectedObject} onChange={handleObjectChange}>
@@ -79,7 +81,7 @@ function App() {
           </label>
         </div>
 
-        {/* Conditionally render Select Status if an object is selected */}
+        {/* vis adfærd hvis en hostile er valgt */}
         {selectedObject && (
           <div>
             <label>
@@ -91,19 +93,19 @@ function App() {
           </div>
         )}
 
-        {/* Display status description if a status is selected */}
+        {/* hvis beskrivelse af adfærd, hvis én er valgt */}
         {statusDescription && (
           <div>
             <p>{statusDescription}</p>
           </div>
         )}
 
-        {/* Conditionally render Generate Random Action button if a status is selected */}
+        {/* Hvis random-knappen, hvis der er valgt en adfærd */}
         {selectedStatus && (
           <button onClick={handleClick}>Generate Random Action</button>
         )}
 
-        {/* Display result and rolled number only if result is set */}
+        {/* Hvis resultat og det nummer du kastede med "terningen", hvis der er et resultat */}
         {result && (
           <div>
             <p>You rolled {rolledNumber}</p>

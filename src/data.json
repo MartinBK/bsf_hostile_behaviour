@@ -23,14 +23,14 @@
     "Advance": "Move towards the closest explorer. The attack the closest explorer that is in range of and visible to this hostile.",
     "Aim": "Attack the furthest explorer that is in range and visible to this hostile. That attack ignores cover.",
     "Charge": "Move towards the closest explorer. Then attack an explorer that is adjacent and visible to this hostile. If there are no explorers adjecent and visible to this hostile, move towards the closest explorer a second time.",
-    "Fall Back": "Double this hostiles Move value when they take this action. If this hostile can make a move that ends in a hex that is not visible to any explorers, they do so. If they cannot, they attack the closest explorer that is in rage of and vsisible to this hostile.",
+    "Fall Back": "Double this hostiles Move value when they take this action. If this hostile can make a move that ends in a hex that is not visible to any explorers, they do so. If they cannot, they attack the closest explorer that is in range of and visible to this hostile.",
     "Hold": "Do nothing.",
     "Onslaught": "Attack the closest explorer that is in range of and visible to this hostile. Then attack the closest explorer that is in range of and visible to this hostile (this may be a different target if the first explorer is taken out of action or another explorer is equally close",
     "Sneak": "Make a move that ends as close as possible to an explorer without entering a hex that is visible to any explorer",
     "Fury": "Move towards the closest explorer. Then take a Charge action.",
     "Alert": "Increase the threat level by 1 (see the Threat Level special rule on the Spindle Drone reference card) and then take an Onslaught action. If the threat level is 3, take an Onslaught action and re-roll failed attack rolls for that action instead.",
-        "Pounce": "If there is an explorer adjacent and visible to this Ur-Ghoul, take an Onslaught action.Otherwise, take a Charge action. Re-roll failed attack rolls for whichever action is taken.",
-            "Rush": "Move towards the closest explorer. Then take a Charge action."
+    "Pounce": "If there is an explorer adjacent and visible to this Ur-Ghoul, take an Onslaught action.Otherwise, take a Charge action. Re-roll failed attack rolls for whichever action is taken.",
+    "Rush": "Move towards the closest explorer. Then take a Charge action."
   },
   "objects": {
     "Traitor Guard": {
@@ -85,7 +85,7 @@
       },
       "Engaged": {
         "actions": [
-          { "numbers": [1, 2, 3, 4, 5, 6], "title": "Fall back" },
+          { "numbers": [1, 2, 3, 4, 5, 6], "title": "Fall Back" },
           { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "title": "Onslaught" },
           { "numbers": [20], "title": "Alert" }
         ]
@@ -142,6 +142,36 @@
         "actions": [
           { "numbers": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "title": "Fall Back" },
           { "numbers": [12, 13, 14, 15, 16, 17, 18, 19, 20], "title": "Rush" }
+        ]
+      }
+    },
+    "Chaos Beastman": {
+      "Hidden": {
+        "actions": [
+          { "numbers": [1, 2, 3], "title": "Hold" },
+          { "numbers": [4, 5, 6, 7, 8, 9], "title": "Advance" },
+          { "numbers": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "title": "Charge" },
+          { "numbers": [20], "title": "Rush" }
+        ]
+      },
+      "Engaged": {
+        "actions": [
+          { "numbers": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Onslaught" },
+          { "numbers": [16, 17, 18, 19, 20], "title": "Fury" }
+        ]
+      },
+      "Close": {
+        "actions": [
+          { "numbers": [1, 2, 3, 4, 5, 6, 7, 8, 9], "title": "Onslaught" },
+          { "numbers": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "title": "Charge" },
+          { "numbers": [20], "title": "Rush" }
+        ]
+      },
+       "Other": {
+        "actions": [
+          { "numbers": [1, 2, 3, 4, 5, 6, 7, 8, 9], "title": "Advance" },
+          { "numbers": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "title": "Fall Back" },
+          { "numbers": [20], "title": "Rush" }
         ]
       }
     }

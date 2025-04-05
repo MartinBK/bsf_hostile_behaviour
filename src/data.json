@@ -26,12 +26,20 @@
     "Fall Back": "Double this hostiles Move value when they take this action. If this hostile can make a move that ends in a hex that is not visible to any explorers, they do so. If they cannot, they attack the closest explorer that is in range of and visible to this hostile.",
     "Hold": "Do nothing.",
     "Onslaught": "Attack the closest explorer that is in range of and visible to this hostile. Then attack the closest explorer that is in range of and visible to this hostile (this may be a different target if the first explorer is taken out of action or another explorer is equally close",
-    "Sneak": "Make a move that ends as close as possible to an explorer without entering a hex that is visible to any explorer",
+    "Sneak": "Make a move that ends as close as possible to an explorer without entering a hex that is visible to any explorer.",
     "Fury": "Move towards the closest explorer. Then take a Charge action.",
     "Alert": "Increase the threat level by 1 (see the Threat Level special rule on the Spindle Drone reference card) and then take an Onslaught action. If the threat level is 3, take an Onslaught action and re-roll failed attack rolls for that action instead.",
     "Pounce": "If there is an explorer adjacent and visible to this Ur-Ghoul, take an Onslaught action.Otherwise, take a Charge action. Re-roll failed attack rolls for whichever action is taken.",
-    "Rush": "Move towards the closest explorer. Then take a Charge action."
-  },
+    "Rush": "Move towards the closest explorer. Then take a Charge action.",
+    "Recharge": "Remove a wound counter from the Negavolt Cultist. If the Negavolt Cultist does not have a wound counter, treat result as a Charge action.",
+    "Annihilate": "Place the empowered marker beside the Rogue Psyker. Then attack an explorer that is adjacent and visible to this hostile. Re-roll failed attack rolls for the attack. The Rogue Psyker remains empowered until they suffer a wound or grievous wound.",
+    "Disrupt": "One unspent activation or destiny dice is chosen by the hostile player is discarded and cannot be spent this turn. If no unspent activation or destiny dice are available, one explorer chosen by the hostile player suffers a wound.",
+    "Empower": "Place the empowered marker beside the Rogue Psyker. If the Rogue Psyker is already empowered, treat this result as a Disrupt result instead. The Rogue Psyker remains empowered until they suffer a wound.",
+    "Regenerate": "Remove a wound counter from the Rogue Psyker. If the Rogue Psyker does not have a wound counter, treat this result as a Disrupt result instead.",
+    "Rapid Fire": "Tke an Onslaught action. Re-roll failed attack rolls for that action.",
+    "Fury (Mallex)": "Take and Onslaught action. Re-roll failed attack rolls for this action",
+    "Overcharge": "Make an Overcharged Plasma Pistol attack against the closest explorer that is in range and visible to Obsidius Mallex."
+},
   "objects": {
     "Traitor Guard": {
       "Hidden": {
@@ -171,6 +179,145 @@
         "actions": [
           { "numbers": [1, 2, 3, 4, 5, 6, 7, 8, 9], "title": "Advance" },
           { "numbers": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "title": "Fall Back" },
+          { "numbers": [20], "title": "Rush" }
+        ]
+      }
+    },
+    "Negavolt Cultist": {
+      "Hidden": {
+        "actions": [
+          { "numbers": [1, 2, 3], "title": "Recharge" },
+          { "numbers": [4, 5, 6], "title": "Hold" },
+          { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "title": "Charge" },
+          { "numbers": [20], "title": "Rush" }
+        ]
+      },
+      "Engaged": {
+        "actions": [
+          { "numbers": [1, 2, 3], "title": "Recharge" },
+          { "numbers": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "title": "Onslaught" },
+          { "numbers": [20], "title": "Fury" }
+        ]
+      },
+       "Other": {
+         "actions": [
+          { "numbers": [1, 2, 3], "title": "Recharge" },
+          { "numbers": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "title": "Charge" },
+          { "numbers": [20], "title": "Fury" }
+        ]
+      }
+    },
+    "Rogue Psyker": {
+      "Hidden": {
+        "actions": [
+          { "numbers": [1, 2, 3, 4, 5, 6, 8, 9], "title": "Hold" },
+          { "numbers": [10, 11, 12, 13, 14, 15], "title": "Disrupt" },
+          { "numbers": [16, 17, 18, 19], "title": "Regenerate" },
+          { "numbers": [20], "title": "Empower" }
+        ]
+      },
+      "Engaged": {
+        "actions": [
+          { "numbers": [1, 2, 3, 4, 5, 6], "title": "Fall Back" },
+          { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Onslaught" },
+          { "numbers": [16, 17, 18, 19, 20], "title": "Annihilate" }
+        ]
+      },
+      "CLose": {
+        "actions": [
+          { "numbers": [1, 2, 3], "title": "Fall Back" },
+          { "numbers": [4, 5, 67, 8, 9], "title": "Disrupt" },
+          { "numbers": [10, 11, 12, 13, 14, 15], "title": "Onslaught" },
+          { "numbers": [16, 17, 18, 19], "title": "Regenerate" },
+          { "numbers": [20], "title": "Empower" }
+        ]
+      },
+       "Other": {
+         "actions": [
+         { "numbers": [1, 2, 3], "title": "Hold" },
+          { "numbers": [4, 5, 67, 8, 9], "title": "Disrupt" },
+          { "numbers": [10, 11, 12, 13, 14, 15], "title": "Onslaught" },
+          { "numbers": [16, 17, 18, 19], "title": "Regenerate" },
+          { "numbers": [20], "title": "Empower" }
+        ]
+      }
+    },
+    "Chaos Space Marine": {
+      "Hidden": {
+        "actions": [
+          { "numbers": [1, 2, 3], "title": "Sneak" },
+          { "numbers": [4, 5, 6, 8, 9], "title": "Advance" },
+          { "numbers": [10, 11, 12, 13, 14, 15], "title": "Charge" },
+          { "numbers": [16, 17, 18, 19, 20], "title": "Rush" }
+        ]
+      },
+      "Engaged": {
+        "actions": [
+          { "numbers": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Onslaught" },
+          { "numbers": [16, 17, 18, 19, 20], "title": "Rapid Fire" }
+        ]
+      },
+      "In Cover": {
+        "actions": [
+          { "numbers": [1, 2, 3], "title": "Aim" },
+          { "numbers": [4, 5, 6, 7, 8, 9, 10, 11, 12], "title": "Onslaught" },
+          { "numbers": [13, 14, 15], "title": "Advance" },
+          { "numbers": [16, 17, 18, 19, 20], "title": "Rapid Fire" }
+        ]
+      },
+      "Close": {
+        "actions": [
+          { "numbers": [1, 2, 3, 4, 5, 6], "title": "Aim" },
+          { "numbers": [7, 8, 9, 10, 11, 12], "title": "Onslaught" },
+          { "numbers": [13, 14, 15], "title": "Advance" },
+          { "numbers": [16, 17, 18, 19, 20], "title": "Rapid Fire" }
+        ]
+      },
+       "Other": {
+         "actions": [
+          { "numbers": [1, 2, 3, 4, 5, 6, 7, 8, 9], "title": "Aim" },
+          { "numbers": [10, 11, 12, 13, 14, 15], "title": "Advance" },
+          { "numbers": [16, 17, 18, 19, 20], "title": "Rapid Fire" }
+        ]
+      }
+    },
+    "Obsidius Mallex": {
+      "Hidden": {
+        "actions": [
+          { "numbers": [1, 2, 3], "title": "Sneak" },
+          { "numbers": [4, 5, 6, 8, 9], "title": "Advance" },
+          { "numbers": [10, 11, 12], "title": "Charge" },
+          { "numbers": [13, 14, 15, 16, 17, 18, 19, 20], "title": "Rush" }
+        ]
+      },
+      "Engaged": {
+        "actions": [
+          { "numbers": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "title": "Onslaught" },
+          { "numbers": [13, 14, 15, 16, 17, 18, 19, 20], "title": "Fury (Mallex)" }
+        ]
+      },
+      "In Cover": {
+        "actions": [
+          { "numbers": [1, 2, 3, 4, 5, 6], "title": "Charge" },
+          { "numbers": [7, 8, 9], "title": "Aim" },
+          { "numbers": [10, 11, 12, 13, 14, 15], "title": "Onslaught" },
+          { "numbers": [16, 17, 18, 19], "title": "Overcharge" },
+          { "numbers": [20], "title": "Rush" }
+        ]
+      },
+      "Close": {
+        "actions": [
+          { "numbers": [1, 2, 3, 4, 5, 6], "title": "Onslaught" },
+          { "numbers": [7, 8, 9, 10, 11, 12, 13, 14, 15], "title": "Charge" },
+          { "numbers": [16, 17, 18, 19, 20], "title": "Overcharge" }
+        ]
+      },
+       "Other": {
+         "actions": [
+          { "numbers": [1, 2, 3, 4, 5, 6], "title": "Advance" },
+          { "numbers": [7, 8, 9], "title": "Aim" },
+          { "numbers": [10, 11, 12, 13, 14, 15], "title": "Onslaught" },
+          { "numbers": [16, 17, 18, 19], "title": "Overcharge" },
           { "numbers": [20], "title": "Rush" }
         ]
       }
